@@ -1,139 +1,53 @@
-/* Reset & Base */
-body {
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
-  background: linear-gradient(to right, #000000, #1f1f1f);
-  color: #e6e6e6;
-  overflow-x: hidden;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Abhilash Panda | Samsung Inspired</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Abhilash Panda</h1>
+      <p>Student | Entrepreneur-in-Training | Tech & Fitness Enthusiast</p>
+    </div>
+  </header>
 
-/* Flying Car Sky */
-.sky {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100px;
-  overflow: hidden;
-  z-index: -1;
-}
+  <section class="about">
+    <h2>About Me</h2>
+    <p>I’m a bibliophile on a personal growth journey through books. A techie, fitness freak, and philosophical soul curious about life. I love finance, startups, and delivering value from scratch.</p>
+  </section>
 
-.flying-car {
-  position: absolute;
-  top: 30px;
-  width: 120px;
-  animation: flyCar 20s linear infinite;
-  opacity: 0.9;
-}
+  <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li><span>HTML</span> - Structured Web Design</li>
+      <li><span>CSS</span> - Interactive Styling</li>
+      <li><span>Problem Solving</span> - Logical Thinker</li>
+      <li><span>Public Speaking</span> - Confident Orator</li>
+      <li><span>Leadership</span> - Driving Teams with Vision</li>
+    </ul>
+  </section>
 
-@keyframes flyCar {
-  from { left: -150px; }
-  to { left: 100vw; }
-}
+  <section class="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>🌐 Personal Portfolio Website</li>
+      <li>💡 Startup Ideation Concepts</li>
+      <li>📢 Persistent Communication Project</li>
+      <li>🏆 2nd Place at Bloomgen Ideathon</li>
+    </ul>
+  </section>
 
-/* Header */
-header {
-  background: linear-gradient(to right, #0f0f0f, #222222);
-  padding: 4rem 1rem;
-  text-align: center;
-  border-bottom: 2px solid #1ae0ec;
-}
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:abhilashpanda888@gmail.com">abhilashpanda888@gmail.com</a></p>
+  </section>
 
-header h1 {
-  font-family: 'Orbitron', sans-serif;
-  font-size: 3rem;
-  color: #1ae0ec;
-  letter-spacing: 2px;
-}
-
-header p {
-  font-size: 1.2rem;
-  color: #dcdcdc;
-  margin-top: 0.5rem;
-}
-
-/* Sections */
-section {
-  padding: 3rem 1.5rem;
-  max-width: 960px;
-  margin: auto;
-  background-color: rgba(255, 255, 255, 0.03);
-  margin-top: 2rem;
-  border-radius: 16px;
-  border: 1px solid #333;
-  backdrop-filter: blur(4px);
-}
-
-h2 {
-  font-family: 'Orbitron', sans-serif;
-  color: #1ae0ec;
-  border-bottom: 1px solid #1ae0ec;
-  padding-bottom: 0.5rem;
-  margin-bottom: 1rem;
-  text-transform: uppercase;
-}
-
-/* Skills */
-.skill-card {
-  background: #1a1a1a;
-  margin: 1rem 0;
-  padding: 1rem;
-  border-left: 4px solid #1ae0ec;
-  border-radius: 8px;
-  transition: transform 0.3s ease;
-}
-
-.skill-card:hover {
-  transform: translateX(10px);
-  background: #111111;
-}
-
-.skill-card h3 {
-  color: #ffffff;
-  margin: 0 0 0.5rem;
-  font-style: italic;
-}
-
-/* Projects */
-.projects ul {
-  list-style: square;
-  padding-left: 1.5rem;
-}
-
-.projects li {
-  margin: 0.5rem 0;
-  color: #e6e6e6;
-}
-
-/* Contact */
-.contact a {
-  color: #1ae0ec;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  padding: 2rem 1rem;
-  background: #000;
-  color: #777;
-  font-size: 0.9rem;
-  margin-top: 2rem;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  header h1 {
-    font-size: 2.2rem;
-  }
-
-  section {
-    padding: 2rem 1rem;
-  }
-
-  .flying-car {
-    width: 80px;
-    top: 20px;
-  }
-}
+  <footer>
+    <p>© 2025 Abhilash Panda | Inspired by Samsung</p>
+  </footer>
+</body>
+</html>
